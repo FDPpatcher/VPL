@@ -31,5 +31,5 @@ jobs:
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Connect to rdp.
       run: cmd /c start.bat
-    - name: Complete.
+    - name: Loop1.
       run: cmd /c loop.bat
